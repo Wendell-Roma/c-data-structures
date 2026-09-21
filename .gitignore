@@ -1,0 +1,15 @@
+# Executáveis compilados
+meu_vetor
+*.out
+*.exe
+*.app
+
+# Arquivos de objetos e bibliotecas
+*.o
+*.a
+*.so
+*.dylib
+
+# Pastas de build
+build/
+bin/
