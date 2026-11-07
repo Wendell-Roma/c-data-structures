@@ -14,6 +14,12 @@ int main(void) {
   printf("Tamanho: %zu\n", v->size);
   printf("Capacidade: %zu\n", v->capacity);
 
+  for (int i = 0; i < 6; i++) {
+    vector_push_back(v, 10);
+  }
+  printf("Tamanho: %zu\n", v->size);
+  printf("Capacidade: %zu\n", v->capacity);
+
   vector_destroy(v);
   printf("Memoria liberada com sucesso!\n");
 

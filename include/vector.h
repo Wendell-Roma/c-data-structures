@@ -14,5 +14,6 @@ typedef struct vector {
 // As primeiras funções que vamos criar juntos:
 vector_t *vector_create(size_t initial_capacity);
 void vector_destroy(vector_t *vec);
+bool vector_push_back(vector_t *vec, int item);
 
 #endif // VECTOR_H
